@@ -1,0 +1,42 @@
+//remove attribute
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+a{
+    color: @color-font;
+    text-decoration: #ffff;
+    &:hover
+    {
+        color: antiquewhite;
+    }
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+
+    }
+}
+input{
+    padding:0;
+}
+// grid layout
+.container
+{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
