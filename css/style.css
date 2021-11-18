@@ -477,7 +477,6 @@ footer .footer-main #l {
 footer .footer-main .footer-end-inner {
   margin-top: 55px;
   padding-bottom: 32px;
-  margin-right: -10px;
 }
 footer .footer-main .footer-end-inner .footer-item {
   width: 25%;
@@ -504,7 +503,6 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a {
   font-size: 14px;
   font-family: 'Poppins';
   font-weight: 300;
-  margin-left: 15px;
 }
 footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   color: burlywood;
@@ -522,6 +520,7 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   padding: 18px 0;
   margin: 0 auto;
   color: #5e5e5e;
+  overflow: hidden;
 }
 @media all and (min-width: 1200px) {
   .wrapper {
