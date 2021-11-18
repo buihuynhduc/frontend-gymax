@@ -350,9 +350,9 @@ input {
   margin-left: 15px;
 }
 .product .product-inner .product-detail-cover:hover {
-  -webkit-box-shadow: -1px 7px 13px 0px rgba(0, 0, 0, 0.47);
-  -moz-box-shadow: -1px 7px 13px 0px rgba(0, 0, 0, 0.47);
-  box-shadow: -1px 7px 13px 0px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
 }
 .product .product-inner .product-detail-cover:hover .product-image .action {
   display: block;
@@ -587,6 +587,7 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   .wrapper .banner-background .logo-moblie img {
     display: block;
     margin: 0 auto;
+    height: 35px;
   }
   .wrapper .banner-background .header-top-inner {
     padding-top: 0px;
@@ -597,7 +598,8 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .nav-icon {
     display: block;
-    font-size: 25px;
+    padding-top: 4px;
+    font-size: 23px;
   }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .menu {
     display: none;
@@ -763,6 +765,12 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   }
 }
 @media all and (max-width: 768px) {
+  .wrapper .banner-background .logo-moblie {
+    height: 20px;
+  }
+  .wrapper .banner-background .logo-moblie img {
+    height: 35px;
+  }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .nav-icon {
     font-size: 20px;
   }
