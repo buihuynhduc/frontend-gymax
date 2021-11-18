@@ -604,26 +604,19 @@
                             margin-bottom: 15px;
                             
                             
-                            p{
-                                width: 100px;
-                                margin: 0 auto;
+                            .footer-title
+                            {
+                                text-align: center;
                                 font-size: 12px;
                                 font-weight: 300;
-                                &:hover .footer-list
-                                {
-                                    display: block;
-                                }
                             }
-                            ul
-                            {   
-                             
-                               
+                            
+                            .footer-list
+                            {  
+                                display: none;
                                 .link-item
                                 {
-                                    display: none;
-                                    padding: 0 25px;
-                                   
-                                    
+                                   text-align: center;
                                     i{
                                        display: none;
                                     }
@@ -634,6 +627,12 @@
                                     }
                                 }
                             }
+                            &:hover .footer-list
+                            {
+                                display: block;
+                            }
+
+                        
                             
                         }
                     }
@@ -1062,10 +1061,6 @@
                                     {
                                         margin: 5px 5px;
                                     }
-                                &:hover 
-                                {
-                                    background-color: #dd2f31;
-                                }
                                 &:last-child
                                 {
                                 
