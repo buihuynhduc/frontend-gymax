@@ -16,6 +16,11 @@ $(document).ready(function () {
         $('.tab-child').removeClass('active');
         $(this).addClass('active');
     });
+    $('.circle').click(function (e) { 
+        e.preventDefault();
+        $('.circle').removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
 
