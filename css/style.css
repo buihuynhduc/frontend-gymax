@@ -412,6 +412,7 @@ input {
   margin: 40px auto;
 }
 .comment .comment-inner .tab .circle {
+  cursor: pointer;
   height: 10px;
   width: 10px;
   border-radius: 5px;
