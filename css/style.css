@@ -6,12 +6,6 @@
 }
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Regular.ttf');
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Poppins';
   src: url('../../fonts/Poppins/Poppins-Medium.ttf');
   font-weight: 400;
   font-style: normal;
@@ -339,7 +333,7 @@ input {
 .product .product-inner .product-detail-cover .product-detail-boder .product-price .product-name {
   font-family: 'Poppins';
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   margin-left: 15px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-price .price {
@@ -387,6 +381,8 @@ input {
 .comment .comment-inner .comment-detail p {
   text-align: center;
   font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 300;
   line-height: 30px;
   white-space: 1px;
 }
