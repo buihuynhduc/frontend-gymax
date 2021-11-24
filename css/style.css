@@ -74,8 +74,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  height: 100px;
   margin: 0 -15px;
 }
 .banner-background .header-top-inner .logo-menu {
@@ -147,11 +146,11 @@ input {
 .banner-background .banner-introduce .container .banner-inner .introduce-inner .banner-description {
   font-family: 'Poppins';
   line-height: 24px;
+  height: 60px;
   font-weight: 200;
   font-size: 14px;
   max-width: 525px;
   width: 100%;
-  height: 60px;
   margin-top: -20px;
   margin-left: 2px;
 }
@@ -353,7 +352,7 @@ input {
   display: block;
 }
 .comment {
-  margin-top: 25px;
+  margin-top: 26px;
   margin-bottom: 95px;
 }
 .comment .comment-inner .comment-title {
@@ -367,7 +366,7 @@ input {
   margin-left: auto;
   margin-right: auto;
   margin-top: 45px;
-  margin-bottom: 23px;
+  margin-bottom: 22px;
   background-image: url('../img/avatar-circle.png');
   background-repeat: no-repeat;
   background-position-x: -58px;
@@ -431,10 +430,10 @@ input {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: 42px;
+  margin-top: 39px;
 }
 footer {
-  margin-top: 30px;
+  margin-top: 34px;
 }
 footer .footer-main {
   background-color: #212121;
@@ -451,19 +450,21 @@ footer .footer-main .footer-head-inner .description {
   font-family: 'Poppins';
   font-weight: 300;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 24px;
   color: #575757;
   text-align: center;
   margin: 0 auto;
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-top: 33px;
+  letter-spacing: 0px;
+}
+footer .footer-main .footer-head-inner .icon-social {
+  margin-top: 40px;
 }
 footer .footer-main .footer-head-inner .icon-social .icon-inner {
-  width: 261px;
+  width: 252px;
   margin: 0 auto;
-}
-footer .footer-main .footer-head-inner .icon-social .icon-inner img {
-  margin: 0 22px;
+  display: flex;
+  justify-content: space-around;
 }
 footer .footer-main #l {
   margin: 0px -15px;
@@ -473,11 +474,13 @@ footer .footer-main #l {
   opacity: 0.2;
 }
 footer .footer-main .footer-end-inner {
-  margin-top: 55px;
-  padding-bottom: 32px;
+  margin-top: 53px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 footer .footer-main .footer-end-inner .footer-item {
-  width: 25%;
+  max-width: 300px;
+  width: 100%;
 }
 footer .footer-main .footer-end-inner .footer-item p {
   font-size: 18px;
@@ -485,22 +488,25 @@ footer .footer-main .footer-end-inner .footer-item p {
   font-weight: 500;
   color: white;
   text-transform: uppercase;
+  margin-left: 12px;
 }
 footer .footer-main .footer-end-inner .footer-item ul {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 footer .footer-main .footer-end-inner .footer-item ul .link-item {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 footer .footer-main .footer-end-inner .footer-item ul .link-item i {
   color: #5e5e5e;
-  width: 20px;
+  width: 12px;
+  margin-left: 12px;
 }
 footer .footer-main .footer-end-inner .footer-item ul .link-item a {
   color: #5e5e5e;
   font-size: 14px;
   font-family: 'Poppins';
   font-weight: 300;
+  margin-left: 12px;
 }
 footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   color: burlywood;
@@ -589,14 +595,17 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   .wrapper .banner-background .header-top-inner {
     padding-top: 0px;
     padding-bottom: 0px;
+    height: 50px;
   }
   .wrapper .banner-background .header-top-inner .logo-menu .logo {
     display: none;
   }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .nav-icon {
     display: block;
+    padding-left: 15px;
     padding-top: 7px;
     font-size: 23px;
+    cursor: pointer;
   }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .menu {
     display: none;
