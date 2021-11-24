@@ -268,7 +268,8 @@
     }
     .product-inner
     {   
-        display: flex;
+        
+        display: none;
         flex-wrap: wrap;
         margin: 30px -15px;
         .product-detail-cover
@@ -367,6 +368,10 @@
             }
         }
     }
+    .active
+    {
+        display: flex;
+    }
 }
 //comment
 .comment
@@ -375,7 +380,6 @@
     margin-bottom: 95px;
     .comment-inner
     {
-        
         .comment-title
         {
             text-align: center;
@@ -402,13 +406,17 @@
         {
             margin: 0 auto;
             width: 775px;
-            p{
+            .rate{
                 text-align: center;
                 font-size: 18px;
                 font-family: 'Poppins';
                 font-weight: 300;
                 line-height: 30px;
-               
+                display: none;
+            }
+            .active
+            {
+                display: block;
             }
         }
         .username

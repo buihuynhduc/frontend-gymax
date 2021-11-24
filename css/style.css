@@ -272,7 +272,7 @@ input {
   color: #dd2f31;
 }
 .product .product-inner {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   margin: 30px -15px;
 }
@@ -351,6 +351,9 @@ input {
 .product .product-inner .product-detail-cover:hover .product-detail-boder .product-image .action {
   display: block;
 }
+.product .active {
+  display: flex;
+}
 .comment {
   margin-top: 26px;
   margin-bottom: 95px;
@@ -379,12 +382,16 @@ input {
   margin: 0 auto;
   width: 775px;
 }
-.comment .comment-inner .comment-detail p {
+.comment .comment-inner .comment-detail .rate {
   text-align: center;
   font-size: 18px;
   font-family: 'Poppins';
   font-weight: 300;
   line-height: 30px;
+  display: none;
+}
+.comment .comment-inner .comment-detail .active {
+  display: block;
 }
 .comment .comment-inner .username {
   text-align: center;
@@ -900,4 +907,3 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
     text-align: center;
   }
 }
-/*# sourceMappingURL=style.css.map */

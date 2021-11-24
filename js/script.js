@@ -11,16 +11,7 @@ $(document).ready(function () {
         $('.cover').fadeOut(2000);
         $('.introduce-inner').fadeIn(2000);
     });
-    $('.tab-child').click(function (e) { 
-        e.preventDefault();
-        $('.tab-child').removeClass('active');
-        $(this).addClass('active');
-    });
-    $('.circle').click(function (e) { 
-        e.preventDefault();
-        $('.circle').removeClass('active');
-        $(this).addClass('active');
-    });
+   //tab
 });
 
 
