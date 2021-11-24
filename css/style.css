@@ -73,8 +73,10 @@ input {
 .banner-background .header-top-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 23px;
   padding-bottom: 23px;
+  margin: 0 -15px;
 }
 .banner-background .header-top-inner .logo-menu {
   display: flex;
@@ -82,7 +84,6 @@ input {
 }
 .banner-background .header-top-inner .logo-menu .logo {
   margin-right: 60px;
-  margin-left: -15px;
 }
 .banner-background .header-top-inner .logo-menu .navbar {
   display: flex;
@@ -110,10 +111,10 @@ input {
   color: white;
   justify-content: center;
   align-items: center;
-  margin-right: -8px;
+  margin-right: 2px;
 }
 .banner-background .header-top-inner .form-control .control-item {
-  padding: 0 23px;
+  padding: 0 27px;
   font-size: 16px;
   border-right: 1px solid #777777;
   height: 18px;
@@ -124,7 +125,7 @@ input {
 }
 .banner-background .banner-introduce {
   color: #ffffff;
-  margin-top: 194px;
+  margin-top: 193px;
 }
 .banner-background .banner-introduce .container {
   position: relative;
@@ -174,7 +175,7 @@ input {
 }
 .banner-background .banner-introduce .container .banner-inner .banner-layer {
   position: absolute;
-  right: -15px;
+  right: -17px;
   top: -105px;
 }
 .strength {
@@ -247,7 +248,7 @@ input {
   margin-top: 22px;
 }
 .product .tab-inner {
-  margin: 0 -17px;
+  margin: 0 -19px;
 }
 .product .tab-inner .tab {
   display: flex;
@@ -274,37 +275,37 @@ input {
 .product .product-inner {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  margin-top: -10px;
+  margin: 30px -15px;
 }
 .product .product-inner .product-detail-cover {
   width: 25%;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder {
   margin: 0 15px;
+  padding-top: 30px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-image {
-  height: 230px;
-  width: 100%;
+  display: block;
   position: relative;
+  padding-top: 71%;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-image img {
   position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
-  bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: block;
+  object-fit: contain;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-image .action {
   display: none;
   position: absolute;
   right: 15px;
-  top: 20px;
+  top: -5px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-image .action-item {
   margin-bottom: 15px;
@@ -328,31 +329,31 @@ input {
   cursor: pointer;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-price {
-  margin-top: 37px;
+  margin-top: 44px;
+  margin-left: 26px;
+  padding-bottom: 30px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-price .product-name {
   font-family: 'Poppins';
   font-size: 14px;
   font-weight: 300;
-  margin-left: 15px;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-price .price {
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 14px;
   margin-top: -10px;
-  margin-left: 15px;
 }
-.product .product-inner .product-detail-cover:hover {
+.product .product-inner .product-detail-cover:hover .product-detail-boder {
   -webkit-box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.2);
 }
-.product .product-inner .product-detail-cover:hover .product-image .action {
+.product .product-inner .product-detail-cover:hover .product-detail-boder .product-image .action {
   display: block;
 }
 .comment {
-  margin-top: 95px;
+  margin-top: 25px;
   margin-bottom: 95px;
 }
 .comment .comment-inner .comment-title {
@@ -360,12 +361,13 @@ input {
   font-family: 'Poppins';
   font-size: 36px;
   font-weight: 500;
+  letter-spacing: 0px;
 }
 .comment .comment-inner .comment-avatar {
   margin-left: auto;
   margin-right: auto;
   margin-top: 45px;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   background-image: url('../img/avatar-circle.png');
   background-repeat: no-repeat;
   background-position-x: -58px;
@@ -376,7 +378,7 @@ input {
 }
 .comment .comment-inner .comment-detail {
   margin: 0 auto;
-  width: 780px;
+  width: 775px;
 }
 .comment .comment-inner .comment-detail p {
   text-align: center;
@@ -384,7 +386,6 @@ input {
   font-family: 'Poppins';
   font-weight: 300;
   line-height: 30px;
-  white-space: 1px;
 }
 .comment .comment-inner .username {
   text-align: center;
@@ -690,10 +691,10 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
     margin: 0 15px;
   }
   .wrapper .product .product-inner .product-detail-cover {
-    width: calc(100%/3);
+    width: 50%;
   }
   .wrapper .product .product-inner .product-detail-cover .product-detail-boder .product-image {
-    padding-top: 5px;
+    padding-top: 40%;
   }
   .wrapper .comment {
     margin-top: 40px;
@@ -867,13 +868,8 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
     font-size: 14px;
     text-align: center;
   }
-  .wrapper .product .product-inner {
-    margin: 0 20px;
-  }
   .wrapper .product .product-inner .product-detail-cover {
     width: 100%;
-    margin: 30px 0px;
-    margin-bottom: 0px;
   }
   .wrapper .product .product-inner .product-detail-cover .product-detail-boder .product-price .product-name {
     text-align: center;

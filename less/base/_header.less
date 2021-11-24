@@ -19,15 +19,17 @@
             {
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
                 padding-top: 23px;
                 padding-bottom:23px;
+                margin: 0 -15px;
                 .logo-menu
                 {
                     display: flex;
                     height: 54px;
                     .logo{
                         margin-right: 60px;
-                        margin-left: -15px;       
+                              
                     }
                     .navbar
                     {
@@ -61,11 +63,10 @@
                     color: white;
                     justify-content: center;
                     align-items: center;
-                    margin-right: -8px;
-                    
+                   margin-right: 2px;
                     .control-item
                     {
-                        padding: 0 23px;
+                        padding: 0 27px;
                         font-size: 16px;
                         border-right: 1px solid #777777;
                         height: 18px;
@@ -83,7 +84,7 @@
     .banner-introduce
     {
         color: @color-font;
-        margin-top: 194px;
+        margin-top: 193px;
         .container
         { position: relative;
             .banner-inner
@@ -121,12 +122,12 @@
                     }
                     .banner-button
                     {
-                        margin-top: 66px;
-                        margin-left: 2px;
-                        width:170px;
-                        height: 50px;
-                        border: 1px solid @color-font;
-                        display: block;
+                            margin-top: 66px;
+                            margin-left: 2px;
+                            width:170px;
+                            height: 50px;
+                            border: 1px solid @color-font;
+                            display: block;
                         .banner-link
                         {   
                             font-family: 'Poppins';
@@ -143,7 +144,7 @@
                 .banner-layer
                 {
                     position: absolute;
-                    right: -15px;
+                    right: -17px;
                     top: -105px
                 }
             
@@ -239,7 +240,7 @@
     margin-top: 22px;
     .tab-inner
     {
-        margin: 0 -17px;
+        margin: 0 -19px;
         .tab
         {
             display: flex;
@@ -271,39 +272,37 @@
     {   
         display: flex;
         flex-wrap: wrap;
-        width: 100%;
-        margin-top: -10px;
+        margin: 30px -15px;
         .product-detail-cover
         {
             width: 25%;
-            margin-top: 40px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-            
+            margin-bottom: 20px;
             .product-detail-boder
-            {
-                
+            {   
                 margin: 0 15px;
+                padding-top: 30px;
                 .product-image
                 {   
-                    height: 230px;
-                    width: 100%;
+                    display: block;
                     position: relative;
+                    padding-top: 71%;
                     img
                     {  
-                        position: absolute; 
-                        left: 0; 
-                        right: 0; 
-                        bottom: 0px;
-                        margin-left: auto; 
-                        margin-right: auto; 
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
                         display: block;
+                        object-fit: contain;
                     }
                     .action
                     {   display: none;
                         position: absolute;
                         right: 15px;
-                        top: 20px;
+                        top: -5px;
                         &-item
                         {
                             margin-bottom: 15px;
@@ -334,14 +333,15 @@
                 }
                 .product-price
                 {
-                    margin-top: 37px;
-                    // margin-left: 20px;
+                    margin-top: 44px;
+                    margin-left: 26px;
+                    padding-bottom: 30px;
                     .product-name
                     {
                         font-family: 'Poppins';
                         font-size: 14px;
                         font-weight: 300;
-                        margin-left: 15px;
+                     
                     }
                     .price
                     {
@@ -349,11 +349,11 @@
                         font-weight: 500;
                         font-size: 14px;
                         margin-top: -10px;
-                        margin-left: 15px;
+                        
                     }
                 }
             }
-            &:hover
+            &:hover .product-detail-boder
             {
                 -webkit-box-shadow: 0 0 2.5px rgba(0,0,0,0.2);
                 -moz-box-shadow: 0 0 2.5px rgba(0,0,0,0.2);
@@ -373,7 +373,7 @@
 //comment
 .comment
 {   
-    margin-top: 95px;
+    margin-top: 25px;
     margin-bottom: 95px;
     .comment-inner
     {
@@ -384,13 +384,14 @@
             font-family: 'Poppins';
             font-size: 36px;
             font-weight: 500;
+            letter-spacing: 0px;
         }
         .comment-avatar
         {   
             margin-left: auto;
             margin-right: auto;
             margin-top: 45px;
-            margin-bottom: 21px;
+            margin-bottom: 23px;
             background-image: url('../img/avatar-circle.png');
             background-repeat: no-repeat;
             background-position-x: -58px;
@@ -402,14 +403,14 @@
         .comment-detail
         {
             margin: 0 auto;
-            width: 780px;
+            width: 775px;
             p{
                 text-align: center;
                 font-size: 18px;
                 font-family: 'Poppins';
                 font-weight: 300;
                 line-height: 30px;
-                white-space: 1px;
+               
             }
         }
         .username
