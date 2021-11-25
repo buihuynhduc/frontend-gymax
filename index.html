@@ -13,7 +13,7 @@
     <!--Add js-->
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
 </head>
 <body>
    <div class="wrapper">
@@ -834,32 +834,48 @@
    </div>
 </body>
 <script>
-    const $ = document.querySelector.bind(document);
-    const $$ = document.querySelectorAll.bind(document);
-    const tabs = $$(".tab-child");
-    const panes = $$(".product-inner");
-    const tabActive = $(".tab-child.active");
-    tabs.forEach((tab, index) => {
-    const pane = panes[index];
-    tab.onclick = function () {
-        $(".tab-child.active").classList.remove("active");
-        $(".product-inner.active").classList.remove("active");
-        this.classList.add("active");
-        pane.classList.add("active");
-    };
-    });
-    //Tab Comment
-    const circles = $$(".circle");
-    const rates = $$(".rate");
-    const circleactive = $(".circle.active");
-    circles.forEach((circle, index) => {
-    const rate = rates[index];
-    circle.onclick = function () {
-        $(".circle.active").classList.remove("active");
-        $(".rate.active").classList.remove("active");
-        this.classList.add("active");
-        rate.classList.add("active");
-    };
-    });
+//tab product
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+const tabs = $$(".tab-child");
+const panes = $$(".product-inner");
+const tabActive = $(".tab-child.active");
+tabs.forEach((tab, index) => {
+const pane = panes[index];
+tab.onclick = function () {
+    $(".tab-child.active").classList.remove("active");
+    $(".product-inner.active").classList.remove("active");
+    this.classList.add("active");
+    pane.classList.add("active");
+};
+});
+//Tab Comment
+const circles = $$(".circle");
+const rates = $$(".rate");
+const circleactive = $(".circle.active");
+circles.forEach((circle, index) => {
+const rate = rates[index];
+circle.onclick = function () {
+    $(".circle.active").classList.remove("active");
+    $(".rate.active").classList.remove("active");
+    this.classList.add("active");
+    rate.classList.add("active");
+};
+});
+const navicon= $('.nav-icon');
+navicon.onclick=function()
+{
+    $('.menu').style.display='block';
+    $('.menu').style.zIndex='2';
+    $('.cover').style.display='block';
+    $('.banner-inner').style.display='none';
+};
+const cover=$('.cover');
+cover.onclick=function()
+{
+    $('.menu').style.display='none';
+    $('.cover').style.display='none';
+    $('.banner-inner').style.display='block';
+};
 </script>
 </html>

@@ -107,7 +107,7 @@
 {  
 .wrapper
     { 
-        width: 100%;
+       
         .banner-background
         {
             .logo-moblie
@@ -210,6 +210,149 @@
                 }
             }
         }
+        .product
+        {
+        
+            .tab-inner
+            {
+                margin: 0;
+                .tab
+                {
+                
+                    &-child
+                    {
+                    
+                    }
+                    .line
+                    {
+                    }
+                    .active
+                    {
+                    
+                    }
+                }
+            }
+            .product-inner
+            {   
+                margin: 30px 0;
+                .product-detail-cover
+                {
+                
+                    .product-detail-boder
+                    {   
+                    
+                        .product-image
+                        {   
+                        
+                            img
+                            {  
+                            
+                            }
+                            .action
+                            {  
+                                &-item
+                                {
+                                    i{
+                                    }
+                                    &:hover
+                                    {
+                                        i{
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .product-price
+                        {
+                            .product-name
+                            {
+                            }
+                            .price
+                            {
+                            }
+                        }
+                    }
+                    &:hover .product-detail-boder
+                    {
+                    
+                        .product-image
+                        {
+                            .action
+                            {
+                            
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .active
+            {
+                display: flex;
+            }
+        }
+        footer
+        {
+            .footer-main
+            {
+                .footer-head-inner
+                { 
+                    .logo
+                    {  
+                        img
+                        {   
+                        }
+                    }
+                    .description
+                    {
+
+                    }
+                    .icon-social
+                    {
+                      
+                        .icon-inner
+                        {   
+                          
+                            
+                        }
+                    }
+                }
+                #l
+                {  
+                }
+                .footer-end-inner
+                {
+                    margin-left: 0;
+                    margin-right: 0;
+                    .footer-item
+                    {
+                        width: 25%;
+                        p{
+                           
+                        }
+                        ul
+                        {
+                        
+                            .link-item
+                            {
+                              
+                                i{ 
+                                   
+                                }
+                                a{
+                                   
+                                    &:hover
+                                    {
+                                      
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }   
+        }
     }
 }
 @media all and (max-width:1024px)
@@ -219,10 +362,10 @@
         width: 100%;
         .cover
         {
-            height: 148vh;
+            height: 184vh;
             width: 100vw;
             position: absolute;
-            top: 79px;
+            top: 75px;
             background-color: rgba(31, 29, 29, 0.5) ;
             display: none;
         }
@@ -277,11 +420,11 @@
                                     display: none;
                                     position: absolute;
                                     left: -5px;
-                                    top:79px;
+                                    top:75px;
                                     background-color:dimgray ;
                                     max-width: 300px;
                                     width: 100%;
-                                    height: 100vh;
+                                    height: 184vh;
                                     border-bottom-right-radius: 7px;
                                     &-item
                                     {
@@ -342,7 +485,7 @@
                                     font-size: 30px;
                                     font-family: 'Poppins';
                                     font-weight: 500;
-                                    margin-top: -70px;
+                                    margin-top: 0px;
                                 }
                             }
                             .banner-description
@@ -451,7 +594,7 @@
             }
             .product-inner
             {   
-                margin: 0 15px;
+                margin: 30px 0px;
                 .product-detail-cover
                 {
                     width: 50%;
@@ -604,18 +747,19 @@
                     .row
                     {
                         display: flex;
+                        width: 100%;
                         .footer-item
                         {
-                            width: 50%;
+                            width: 25%;
                             box-sizing: border-box;
                             margin-bottom: 15px;
-                            
-                            
                             .footer-title
                             {
                                 text-align: center;
                                 font-size: 12px;
-                                font-weight: 300;
+                                font-weight: 500;
+                                font-family: 'Poppins';
+
                             }
                             
                             .footer-list
@@ -663,6 +807,8 @@
     { 
         .cover
         {
+            top:84px;
+            height: 181vh;
         }
         .banner-background
         {   
@@ -692,7 +838,8 @@
                                    font-size: 20px;
                                 }
                                 .menu{
-                                  
+                                    top:84px;
+                                    height: 181vh;
                                     &-item
                                     {
                                        
@@ -835,6 +982,7 @@
             }
             .product-inner
             {   
+                margin: 20px 0;
                 .product-detail-cover
                 {
                     width: 50%;
@@ -1008,7 +1156,9 @@
         .cover
         {
             position: absolute;
-            top: 87px;
+            top: 85px;
+            height: 181vh;
+          
         }
         .banner-background
         {   
@@ -1038,7 +1188,7 @@
                                    font-size: 20px;
                                 }
                                 .menu{
-                                    margin-top: 10px;
+                                    
                                     &-item
                                     {
                                        
@@ -1091,7 +1241,7 @@
                                 .banner-title-big
                                 {   
                                     font-size: 30px;
-                                    margin-bottom: 60px;
+                                    
                                 }
                                 .banner-title-small
                                 {
@@ -1159,8 +1309,8 @@
                                 -webkit-line-clamp: 2;
                                 display: -webkit-box;
                                 -webkit-box-orient: vertical;
-                                margin-top: -10px;
-                                padding: 0;
+                                margin-top: 0px;
+                                line-height: 15px;
                                 &:hover
                                 {
                                     -webkit-line-clamp: 4; 
@@ -1208,6 +1358,7 @@
             .product-inner
             {   
                
+                margin: 20px 0;
                 .product-detail-cover
                 {
                     width: 100%;
@@ -1346,7 +1497,7 @@
                     {
                         .footer-item
                         {
-
+                            width: 50%;
                             p{
                                
                                 &:hover .footer-list
