@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(7, 3, 3);
-    height: 945px;
+    height: 950px;
     .logo-moblie
     {
         height: auto;
@@ -21,21 +21,21 @@
                 justify-content: space-between;
                 align-items: center;
                 height: 100px;
-                margin: 0 -15px;
+                margin: 0;
                 .logo-menu
                 {
                     display: flex;
                     height: 54px;
                     .logo
                     {
-                        margin-right: 60px;       
+                        margin-right: 64px;       
                     }
                     .navbar
                     {
                         display: flex;
-                        align-items: center;
+                        margin-top: 2px;
                         .nav-icon
-                        {
+                        {   
                             color: @color-font;
                             font-size: 30px;
                         }
@@ -61,13 +61,12 @@
                     color: white;
                     justify-content: center;
                     align-items: center;
-                    margin-right: 2px;
                     .control-item
                     {
-                        padding: 0 27px;
+                        padding: 0 26px;
                         font-size: 16px;
                         border-right: 1px solid #777777;
-                        height: 18px;
+                        height: 17px;
                         &:last-child
                         {
                             padding-right: 0px;
@@ -84,10 +83,10 @@
         color: @color-font;
         margin-top: 193px;
         .container
-        { position: relative;
+        { 
+            position: relative;
             .banner-inner
             {
-                margin-left: -22px;
                 .introduce-inner
                 {
                     .banner-title
@@ -97,13 +96,16 @@
                             font-size: 60px;
                             font-family: 'Poppins';
                             font-weight: 500;
+                            margin: 0 -2px;
                         }
                         .banner-title-small
                         {
                             font-size: 40px;
                             font-family: 'Poppins';
                             font-weight: 500;
+                            margin: 0 -2px;
                             margin-top: -8px;
+                            
                         }
                     }
                     .banner-description
@@ -115,15 +117,13 @@
                             font-size: 14px;
                             max-width: 525px;
                             width: 100%;
-                            margin-top: 19px;   
-                            margin-left: 2px;  
+                            margin-top: 19px;    
                     }
                     .banner-button
                     {
                             margin-top: 66px;
-                            margin-left: 3px;
-                            width:170px;
-                            height: 50px;
+                            width:169px;
+                            height: 49px;
                             border: 1px solid @color-font;
                             display: block;
                         .banner-link
@@ -142,8 +142,8 @@
                 .banner-layer
                 {
                     position: absolute;
-                    right: -17px;
-                    top: -105px
+                    right: -10px;
+                    top: -101px
                 }
             
             }
@@ -154,7 +154,7 @@
 .strength
 {
     position: relative;
-    top: -73px;
+    top: -77px;
     .container
     {
         .strength-inner
@@ -236,10 +236,9 @@
 //product
 .product
 {
-    margin-top: 22px;
+    margin-top: 20px;
     .tab-inner
     {
-        margin: 0 -19px;
         .tab
         {
             display: flex;
@@ -249,7 +248,7 @@
                font-size: 18px;
                font-family: 'Poppins';
                font-weight: 500;
-               padding:0px 18px;
+               padding:0px 17.5px;
                border-bottom: 1px solid #948989;
                text-transform: uppercase; 
             }
@@ -272,7 +271,7 @@
         
         display: none;
         flex-wrap: wrap;
-        margin: 30px -15px;
+        margin: 30px 0px;
         .product-detail-cover
         {
             width: 25%;
@@ -314,7 +313,7 @@
                                 border: 1px solid gainsboro;
                                 border-top-left-radius: 7px;
                                 border-bottom-right-radius: 7px;
-                                background-color: #ffff;
+                               
                             }
                             &:hover
                             {
@@ -334,7 +333,7 @@
                 .product-price
                 {
                     margin-top: 44px;
-                    margin-left: 26px;
+                    margin-left: 29px;
                     padding-bottom: 30px;
                     .product-name
                     {
@@ -395,7 +394,7 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 45px;
-            margin-bottom: 22px;
+            margin-bottom: 21px;
             background-image: url('../img/avatar-circle.png');
             background-repeat: no-repeat;
             background-position-x: -58px;
@@ -407,15 +406,15 @@
         .comment-detail
         {
             margin: 0 auto;
-            width: 775px;
+            max-width: 775px;
+            width: 100%;
             .rate{
                 text-align: center;
                 font-size: 18px;
                 font-family: 'Poppins';
                 font-weight: 300;
-                line-height: 30px;
+                line-height: 29px;
                 display: none;
-                
             }
             .active
             {
@@ -428,7 +427,7 @@
              font-size: 18px;
              font-family: 'Poppins';
              font-weight: 500;
-             margin-top: 25px;
+             margin-top: 27px;
              text-transform: uppercase;
         }
         .feel
@@ -462,15 +461,14 @@
 #line
 {
     margin-top: 98px;
-    margin-left: -15px;
-    margin-right: -15px;
 }
 //list logo
 .list-logo
 {   
-    margin: 0 5px;
+   
         .list-logo-inner
         {  
+            margin: 0 22px;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
