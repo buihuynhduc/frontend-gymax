@@ -314,14 +314,14 @@ input {
   border: 1px solid gainsboro;
   border-top-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  background-color: white;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-image .action-item:hover i {
   color: #fff;
   display: block;
-  border-top-left-radius: 7px;
-  border-bottom-right-radius: 7px;
   background-color: #dd2f31;
   cursor: pointer;
+  border-color: #dd2f31;
 }
 .product .product-inner .product-detail-cover .product-detail-boder .product-price {
   margin-top: 44px;
@@ -611,7 +611,7 @@ footer .footer-main .footer-end-inner .footer-item ul .link-item a:hover {
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .nav-icon {
     display: block;
     padding-top: 15px;
-    font-size: 22px;
+    font-size: 21px;
     cursor: pointer;
   }
   .wrapper .banner-background .header-top-inner .logo-menu .navbar .menu {
